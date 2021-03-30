@@ -9996,6 +9996,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 812508301}
+  - component: {fileID: 812508302}
+  - component: {fileID: 812508303}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -10020,6 +10022,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &812508302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812508300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31786b516fa804840b80fce47e3cc0e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &812508303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812508300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6fe994953c70b4b8aec2a0ea9fc85b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeCounter: 0
+  speed: 0.2
+  width1: 100
+  width2: 100
+  height: 20
 --- !u!1001 &837552651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18783,7 +18814,7 @@ GameObject:
   - component: {fileID: 1419203995}
   - component: {fileID: 1419203994}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: TempEnemyBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
