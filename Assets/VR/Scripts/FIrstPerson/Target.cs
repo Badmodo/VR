@@ -4,20 +4,26 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    public float health = 50;
+    public GameObject nextBoss;
+    public GameObject nextBossHealthbar;
+    public GameObject currentBossHealthbar;
 
     public void TakeDamage(float amount)
     {
-        health -= amount;
+        EnemyHealthBar.health -= amount;
 
-        if(health <= 0f)
+        if (EnemyHealthBar.health <= 0f)
         {
-            Die();
+            StartCoroutine(Die());
         }
     }
 
-    void Die()
+    IEnumerator Die()
     {
+        currentBossHealthbar.SetActive(false);
         Destroy(gameObject);
+        nextBoss.SetActive(true);
+        nextBossHealthbar.SetActive(true);
+        yield return new WaitForSeconds(1f);
     }
 }
