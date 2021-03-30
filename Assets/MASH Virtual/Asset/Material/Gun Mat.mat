@@ -7,10 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Orange.1
+  m_Name: Gun Mat
   m_Shader: {fileID: 4800000, guid: a4b63b3e692df5f4483e2ecf8241a38e, type: 3}
-  m_ShaderKeywords: _IGNOREMODELTRANSFORMDIAGONALREMOVAL_ON _OBJECTSPACE_ON _REMOVEDIAGONAL_ON
-  m_LightmapFlags: 4
+  m_ShaderKeywords: _EMISSION _IGNOREMODELTRANSFORMDIAGONALREMOVAL_ON _METALLICGLOSSMAP
+    _NORMALMAP _OBJECTSPACE_ON _REMOVEDIAGONAL_ON
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 56f65315b50ca2541a1d3d67192df3bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -36,19 +37,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 75f8278e68f326e489206c7316821f14, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: ef57d3bdc8f38c84a89d283269b4eed2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 99623da3046b5cb4b8cb935b778d13f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: e946a9dc39eec974286136379f4a0559, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -67,7 +68,7 @@ Material:
     - _FlatShading: 0
     - _FlatShadingWire: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IgnoreModelTransformDiagonalRemoval: 1
     - _Metallic: 0
@@ -79,15 +80,15 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TransitionPixels: 20
+    - _TransitionPixels: 3
     - _TransitionSetting: 1
     - _TransitionThickness: 0.75
     - _UVSec: 0
-    - _WireThickness: 15.17
+    - _WireThickness: 1
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.6911765, g: 0.3521054, b: 0.14738324, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FillColor: {r: 0, g: 0, b: 0, a: 1}
-    - _WireColor: {r: 1, g: 0, b: 0.8370819, a: 1}
+    - _WireColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
