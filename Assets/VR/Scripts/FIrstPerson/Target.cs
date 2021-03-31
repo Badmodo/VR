@@ -8,6 +8,9 @@ public class Target : MonoBehaviour
     public GameObject nextBossHealthbar;
     public GameObject currentBossHealthbar;
 
+    [SerializeField] private EnemyAdjustMaterial eam;
+    //public ParticleSystem deathParticle;
+
     public void TakeDamage(float amount)
     {
         EnemyHealthBar.health -= amount;
@@ -21,9 +24,12 @@ public class Target : MonoBehaviour
     IEnumerator Die()
     {
         currentBossHealthbar.SetActive(false);
+        eam.Fader();
+        //deathParticle.Play();
+        yield return new WaitForSeconds(2f);
         Destroy(gameObject);
         nextBoss.SetActive(true);
         nextBossHealthbar.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        //yield return new WaitForSeconds(1f);
     }
 }

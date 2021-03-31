@@ -12,6 +12,7 @@ public class Gun : MonoBehaviour
     public ParticleSystem muzzleFlashL;
     public ParticleSystem muzzleFlashR;
     public GameObject impactEffect;
+    public CameraShake cameraShake;
 
     private float NextTimToFire = 0f;
 
@@ -21,7 +22,7 @@ public class Gun : MonoBehaviour
         {
             NextTimToFire = Time.time + 1f / fireRate;
             ShootLeft();
-        }        
+        } 
         if (Input.GetButtonDown("Fire2") && Time.time >= NextTimToFire)
         {
             NextTimToFire = Time.time + 1f / fireRate;
@@ -32,6 +33,8 @@ public class Gun : MonoBehaviour
     void ShootLeft()
     {
         muzzleFlashL.Play();
+
+        StartCoroutine(cameraShake.Shake(.15f, .4f));
 
         RaycastHit hit;
         if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
@@ -50,6 +53,8 @@ public class Gun : MonoBehaviour
     void ShootRight()
     {
         muzzleFlashR.Play();
+
+        StartCoroutine(cameraShake.Shake(.15f, .4f));
 
         RaycastHit hit;
         if(Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
