@@ -92,7 +92,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/Grab
     needsReinit: 0
   touchpadAxis:
-    actionPath: 
+    actionPath: /actions/default/in/TouchpadAxis
     needsReinit: 0
   onPointerPressed:
     m_PersistentCalls:
@@ -225,7 +225,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/Grab
     needsReinit: 0
   touchpadAxis:
-    actionPath: 
+    actionPath: /actions/default/in/TouchpadAxis
     needsReinit: 0
   onPointerPressed:
     m_PersistentCalls:
