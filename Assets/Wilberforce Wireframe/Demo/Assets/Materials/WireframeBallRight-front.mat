@@ -75,7 +75,7 @@ Material:
     - _Parallax: 0.02
     - _RemoveDiagonal: 1
     - _SrcBlend: 1
-    - _TransitionPixels: 10
+    - _TransitionPixels: 3.5
     - _TransitionSetting: 1
     - _TransitionThickness: 0.75
     - _UVSec: 0
