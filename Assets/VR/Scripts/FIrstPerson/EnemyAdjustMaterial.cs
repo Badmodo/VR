@@ -31,7 +31,7 @@ public class EnemyAdjustMaterial : MonoBehaviour
     private void FixedUpdate()
     {
         material.SetFloat("_Cutoff", amount);
-        Debug.Log("cut off " + material.GetFloat("_Cutoff"));
+        //Debug.Log("cut off " + material.GetFloat("_Cutoff"));
     }
 
     IEnumerator FadeDeath()

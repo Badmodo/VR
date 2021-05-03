@@ -6,7 +6,6 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     protected Rigidbody bulletRigidbody;
-    protected Collider bulletCollider;
 
     [SerializeField]
     protected Vector3 velocity;
@@ -16,13 +15,15 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     protected bool isUsingPhysics = false;
 
+    [SerializeField]
+    protected float lifetime = 10.0f;
+
     // Start is called before the first frame update
     void Start()
     {
         bulletRigidbody = GetComponent<Rigidbody>();
-        bulletCollider = GetComponent<Collider>();
-        if (bulletCollider == null)
-            bulletCollider = gameObject.AddComponent<SphereCollider>();
+        if (!isUsingPhysics)
+            bulletRigidbody.isKinematic = true;
     }
 
     // Update is called once per frame
@@ -30,6 +31,9 @@ public class Bullet : MonoBehaviour
     {
         Move();
         Spin();
+        lifetime -= Time.deltaTime;
+        if (lifetime < 0)
+            OnLifetimeEnd();
     }
 
     protected virtual void Move()
@@ -40,7 +44,7 @@ public class Bullet : MonoBehaviour
         }
         else
         {
-            transform.Translate(velocity * Time.deltaTime);
+            transform.Translate(velocity * Time.deltaTime, Space.World);
         }
     }
 
@@ -48,11 +52,21 @@ public class Bullet : MonoBehaviour
     {
         if (isUsingPhysics)
         {
-            bulletRigidbody.MoveRotation(Quaternion.Euler(angularVelocity * Time.deltaTime));
+            bulletRigidbody.AddTorque(angularVelocity * Time.deltaTime, ForceMode.Force);
         }
         else
         {
-            transform.Rotate(angularVelocity * Time.deltaTime);
+            transform.Rotate(angularVelocity * Time.deltaTime, Space.World);
         }
+    }
+
+    protected virtual void OnLifetimeEnd()
+    {
+
+    }
+
+    private void OnParticleCollision(GameObject other)
+    {
+        
     }
 }

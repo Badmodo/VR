@@ -13,13 +13,19 @@ Shader "Unlit/ObraDinnShader"
     {
         Tags
         {
-        "Queue" = "Transparent"
+            "RenderType" = "Opaque"
+            "Queue" = "Transparent"
         }
 
         GrabPass{}
 
         Pass
         {
+            //Cull Off
+            //ZWrite Off
+            //ZTest Always
+            //Blend One One
+            //Blend DstColor Zero
 
             CGPROGRAM
             #pragma vertex vert
@@ -33,20 +39,24 @@ Shader "Unlit/ObraDinnShader"
 
             float calc(float2 val)
             {
+                //return frac(sin(dot(val, float2(825.73452f, 33152.6829f) * 56324.47263f)));
                 return cos(val.x * _DotSize) * cos(val.y * _DotSize) *_Strength;
             }
 
             struct appdata
             {
                 float4 vertex : POSITION;
+                float3 normal : NORMAL;
                 float2 uv : TEXCOORD0;
             };
 
             struct v2f
             {
                 float4 vertex : SV_POSITION;
-                float4 uvgrab :TEXCOORD1;
                 float2 uv : TEXCOORD0;
+                float4 uvgrab : TEXCOORD1;
+                float3 normal : TEXCOORD2;
+                float3 wPos : TEXCOORD3;
             };
 
 
@@ -69,6 +79,9 @@ Shader "Unlit/ObraDinnShader"
                 o.uvgrab.zw = vertexUV.zw;
 
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
+                
+                o.normal = UnityObjectToWorldNormal(v.normal);
+                o.wPos = mul(unity_ObjectToWorld, v.vertex);
                 return o;
             }
 
@@ -77,12 +90,19 @@ Shader "Unlit/ObraDinnShader"
 
             fixed4 frag (v2f i) : SV_Target
             {
+                fixed3 V = normalize(_WorldSpaceCameraPos - i.wPos);
+                fixed3 N = i.normal;
+                fixed fresnel = dot(V, N);
                 // sample the texture
+                i.uvgrab.x = i.uvgrab.x * cos(i.uvgrab.x * fresnel);
+                i.uvgrab.y = i.uvgrab.y * cos(i.uvgrab.y * fresnel);
                 fixed4 col = tex2Dproj(_GrabTexture, i.uvgrab);
+                return col;
 
-                float colAverage = (col.r + col.g + col.b) / 3;
+                //fixed colAverage = (col.r + col.g + col.b) / 3;
 
-                return colAverage - _Offset > calc(i.vertex) ? _LightColor : _DarkColor;
+                //return fresnel;
+                //return colAverage - _Offset > calc(i.vertex) ? _LightColor : _DarkColor;
             }
             ENDCG
         }
