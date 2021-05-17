@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HomingBullet : Bullet
@@ -10,7 +8,11 @@ public class HomingBullet : Bullet
     private void Awake()
     {
         particle = GetComponent<ParticleSystem>();
-        playerPosition = GameObject.FindWithTag("Player").transform.position;
+    }
+
+    protected override void Start()
+    {
+        base.Start();
         maxSpeed = (transform.position - playerPosition).magnitude;
     }
 

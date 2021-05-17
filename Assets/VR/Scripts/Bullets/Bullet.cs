@@ -17,12 +17,12 @@ public class Bullet : MonoBehaviour
     private void Awake()
     {
         particle = GetComponent<ParticleSystem>();
-        playerPosition = GameObject.FindWithTag("Player").transform.position;
     }
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
+        playerPosition = GameObject.FindWithTag("Player").transform.position;
         transform.LookAt(playerPosition);
         particle.Play();
     }
