@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(ParticleSystem))]
 public class Bullet : MonoBehaviour
 {
-    protected Rigidbody bulletRigidbody;
     protected ParticleSystem particle;
+    protected Vector3 playerPosition;
+
 
     [SerializeField]
     protected Vector3 velocity;
@@ -16,14 +16,14 @@ public class Bullet : MonoBehaviour
 
     private void Awake()
     {
-        bulletRigidbody = GetComponent<Rigidbody>();
-        bulletRigidbody.isKinematic = true;
         particle = GetComponent<ParticleSystem>();
+        playerPosition = GameObject.FindWithTag("Player").transform.position;
     }
 
     // Start is called before the first frame update
     void Start()
     {
+        transform.LookAt(playerPosition);
         particle.Play();
     }
 
@@ -42,10 +42,5 @@ public class Bullet : MonoBehaviour
     protected virtual void Spin()
     {
         transform.Rotate(angularVelocity * Time.deltaTime, Space.World);
-    }
-
-    private void OnParticleCollision(GameObject other)
-    {
-        
     }
 }

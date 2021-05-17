@@ -5,13 +5,10 @@ using UnityEngine;
 public class HomingBullet : Bullet
 {
     //Transform playerTransform;
-    private Vector3 playerPosition;
     private float maxSpeed;
 
     private void Awake()
     {
-        bulletRigidbody = GetComponent<Rigidbody>();
-        bulletRigidbody.isKinematic = true;
         particle = GetComponent<ParticleSystem>();
         playerPosition = GameObject.FindWithTag("Player").transform.position;
         maxSpeed = (transform.position - playerPosition).magnitude;
