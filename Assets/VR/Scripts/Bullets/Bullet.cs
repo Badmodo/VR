@@ -13,6 +13,8 @@ public class Bullet : MonoBehaviour
     protected Vector3 velocity;
     [SerializeField]
     protected Vector3 angularVelocity;
+    [SerializeField]
+    protected float damage = 10.0f;
 
     private void Awake()
     {
@@ -42,5 +44,11 @@ public class Bullet : MonoBehaviour
     protected virtual void Spin()
     {
         transform.Rotate(angularVelocity * Time.deltaTime, Space.World);
+    }
+
+    private void OnParticleCollision(GameObject other)
+    {
+        if (other.CompareTag("Player"))
+            HealthBar.health -= damage;
     }
 }

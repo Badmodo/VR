@@ -3847,7 +3847,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -4935,6 +4935,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7734998120049212327, guid: 1ebcc121f08ed1e4f9ac41240c8c2d2c, type: 3}
       propertyPath: cullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7734998120049212327, guid: 1ebcc121f08ed1e4f9ac41240c8c2d2c, type: 3}
+      propertyPath: CollisionModule.collisionMessages
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7734998120049212327, guid: 1ebcc121f08ed1e4f9ac41240c8c2d2c, type: 3}
