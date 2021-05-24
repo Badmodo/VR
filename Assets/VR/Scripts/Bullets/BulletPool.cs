@@ -29,6 +29,11 @@ public class BulletPool : MonoBehaviour
 
     }
 
+    private GameObject SearchPool()
+    {
+        return default;
+    }
+
     public static void NextPhase()
     {
         waveMarker++;
