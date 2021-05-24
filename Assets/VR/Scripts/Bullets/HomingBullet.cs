@@ -14,6 +14,10 @@ public class HomingBullet : Bullet
     {
         base.Start();
         maxSpeed = (transform.position - playerPosition).magnitude;
+        if(maxSpeed == 0)
+        {
+            maxSpeed += 0.01f;
+        }
     }
 
     protected override void Move()
