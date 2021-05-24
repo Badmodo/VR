@@ -2,28 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(ParticleSystem))]
 public class Bullet : MonoBehaviour
 {
-    protected Rigidbody bulletRigidbody;
     protected ParticleSystem particle;
+    protected Vector3 playerPosition;
+
 
     [SerializeField]
     protected Vector3 velocity;
     [SerializeField]
     protected Vector3 angularVelocity;
+    [SerializeField]
+    protected float damage = 10.0f;
 
     private void Awake()
     {
-        bulletRigidbody = GetComponent<Rigidbody>();
-        bulletRigidbody.isKinematic = true;
         particle = GetComponent<ParticleSystem>();
     }
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
+        playerPosition = GameObject.FindWithTag("Player").transform.position;
+        transform.LookAt(playerPosition);
         particle.Play();
     }
 
@@ -46,6 +48,8 @@ public class Bullet : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        
+        Debug.Log("");
+        if (other.CompareTag("Player"))
+            HealthBar.health -= damage;
     }
 }
