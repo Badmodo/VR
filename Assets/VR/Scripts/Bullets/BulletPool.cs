@@ -9,7 +9,8 @@ public class BulletPool : MonoBehaviour
     //On the first phase it will spawn the first three bullet prefabs
     //When the phase changes, the set of bullets will move up the list by one
     //Each pattern is harder than the previous ones
-    private int waveMarker = 0;
+    private static int waveMarker = 0;
+    private List<GameObject> bulletPool;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,6 @@ public class BulletPool : MonoBehaviour
 
     public static void NextPhase()
     {
-
+        waveMarker++;
     }
 }

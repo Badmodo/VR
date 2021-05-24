@@ -15,6 +15,8 @@ public class Bullet : MonoBehaviour
     protected Vector3 angularVelocity;
     [SerializeField]
     protected float damage = 10.0f;
+    [SerializeField]
+    protected bool doesTargetPlayer = true;
 
     private void Awake()
     {
@@ -25,7 +27,8 @@ public class Bullet : MonoBehaviour
     protected virtual void Start()
     {
         playerPosition = GameObject.FindWithTag("Player").transform.position;
-        transform.LookAt(playerPosition);
+        if(doesTargetPlayer)
+            transform.LookAt(playerPosition);
         particle.Play();
     }
 
