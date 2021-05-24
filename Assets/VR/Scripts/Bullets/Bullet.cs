@@ -48,6 +48,7 @@ public class Bullet : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
+        Debug.Log("");
         if (other.CompareTag("Player"))
             HealthBar.health -= damage;
     }
