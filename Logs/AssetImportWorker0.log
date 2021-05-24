@@ -395,3 +395,4 @@ Received Import Request.
 Start importing Assets/VR/Prefabs/Bullets/Finalised/BasicBulletDelivery.prefab using Guid(6621618660917d7498613e9ac98f27be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a56cff2a7055eef70a7756bf02de06') in 0.004829 seconds
   Import took 0.008545 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
