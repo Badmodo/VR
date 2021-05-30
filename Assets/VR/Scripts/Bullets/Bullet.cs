@@ -32,6 +32,11 @@ public class Bullet : MonoBehaviour
         particle.Play();
     }
 
+    private void OnEnable()
+    {
+        particle.Play();
+    }
+
     // Update is called once per frame
     void Update()
     {
