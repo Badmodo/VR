@@ -27,17 +27,27 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Start()
     {
-
         if (doesTargetPlayer)
+        {
             transform.LookAt(player.position);
+        }
+        else
+        {
+            transform.rotation = Quaternion.identity;
+        }
         particle.Play();
     }
 
     private void OnEnable()
     {
-
         if (doesTargetPlayer)
+        {
             transform.LookAt(player.position);
+        }
+        else
+        {
+            transform.rotation = Quaternion.identity;
+        }
         particle.Play();
     }
 

@@ -1276,3 +1276,707 @@ System memory in use after: 114.8 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2902.
 Total: 3.259500 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.064300 ms MarkObjects: 2.798300 ms  DeleteObjects: 0.094100 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.7 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2905.
+Total: 2.993200 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.121600 ms MarkObjects: 2.432400 ms  DeleteObjects: 0.074300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.7 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2908.
+Total: 3.020300 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.097100 ms MarkObjects: 2.511700 ms  DeleteObjects: 0.104900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1878.481297 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc99a2a5e215f49a2d5330103f8b769') in 0.021006 seconds
+  Import took 0.025253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.691772 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e3dd4cd6f17b1b2ce96a2e169dbb16') in 0.005466 seconds
+  Import took 0.009714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.439109 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19463f9ddbd94bcec274ab66bfa74a78') in 0.005553 seconds
+  Import took 0.009373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.403674 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bcf49a29eac0622f45bba59f249e2c') in 0.005434 seconds
+  Import took 0.009284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.597741 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5bb755b0d41bf2aa276c119c2e1fb3') in 0.005514 seconds
+  Import took 0.009635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.192688 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6de929d8751abdd3d79e73be996d88') in 0.006023 seconds
+  Import took 0.009933 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.7 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2911.
+Total: 3.038200 ms (FindLiveObjects: 0.307400 ms CreateObjectMapping: 0.139400 ms MarkObjects: 2.522500 ms  DeleteObjects: 0.067400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.575226 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8817a76f82c3c248cf6043c698cc6aee') in 0.024858 seconds
+  Import took 0.029290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.723154 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a2a578370fe9bd4b762dd1f093ba33') in 0.005790 seconds
+  Import took 0.010172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.653322 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd100e13e1ad67d4bbc1566ea91fa64') in 0.006292 seconds
+  Import took 0.010639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.131322 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fff8e070a5cd351b449836c0c62e16') in 0.005809 seconds
+  Import took 0.009482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.165943 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4666e1a9dc00ef5ab9af4dd5c8c56a') in 0.005250 seconds
+  Import took 0.008897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.248729 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec1679bf448e21e684d9899c99f9694') in 0.005489 seconds
+  Import took 0.009141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.939866 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c559ac4e654a2102cd56742e9ddb8a0') in 0.005440 seconds
+  Import took 0.009130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.308042 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914d250bea5e26167aa834efc83893c2') in 0.005849 seconds
+  Import took 0.010491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.857915 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c673e560e5fa3fda77490ee6c11145') in 0.005396 seconds
+  Import took 0.009750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.848761 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3449dc0038e0881b74d51e56d1c0dc02') in 0.005497 seconds
+  Import took 0.009335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.562137 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d5289c6323108758cc68a623f75f89') in 0.005545 seconds
+  Import took 0.009501 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002874 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.898 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2914.
+Total: 3.270200 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.064700 ms MarkObjects: 2.825000 ms  DeleteObjects: 0.073000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 963.472381 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff540836536af37aa25d498404774e39') in 0.023421 seconds
+  Import took 0.027535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.908743 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6417151c0de6a983890fd5c271e78a') in 0.005640 seconds
+  Import took 0.009330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.488340 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69e91ab9aee9212ac8398c5f7faf6e0') in 0.005663 seconds
+  Import took 0.010311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.872694 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1184ecc3ee64dc0497d9eebf8f04913d') in 0.005368 seconds
+  Import took 0.009811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.767183 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a00c868e0a643b91638dde91df82b1') in 0.005345 seconds
+  Import took 0.010153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.905476 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84509fa742f7ae26dda7e2aefca9c109') in 0.005691 seconds
+  Import took 0.009990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.305185 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331a7fb85eca25ef169b4f5ced340b3f') in 0.005883 seconds
+  Import took 0.009722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.363869 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d704f2be68d22c3e92b163599f155d') in 0.005974 seconds
+  Import took 0.009793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.173650 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6694d8f56d4ad312f0901efe1618834a') in 0.005998 seconds
+  Import took 0.009829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.668671 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f247438cb67c7976a08d7a7c237466') in 0.005656 seconds
+  Import took 0.009882 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.7 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2917.
+Total: 3.185000 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.068900 ms MarkObjects: 2.706200 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.568679 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab
+  artifactKey: Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave1.prefab using Guid(cac6a5183446b8d479c388ec3f978a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b355e0d9f22dc97849069563ff9a82d1') in 0.023660 seconds
+  Import took 0.028191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2a4df7ae298234231eb648eae5f6b2') in 0.008780 seconds
+  Import took 0.012269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0cbde650a6a8f1582d5db7ac6b9e34') in 0.005686 seconds
+  Import took 0.009359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.537268 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d796b60c391bbdced625d24e46e77fc') in 0.005666 seconds
+  Import took 0.009404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.277395 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667fc6d8735d393d577c45851de76399') in 0.005550 seconds
+  Import took 0.009975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.974293 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c51158fcec56a3a2bf5abf3591c895') in 0.005174 seconds
+  Import took 0.008942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.301051 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6664e2c73ccadbf4d741151f85a8c2e') in 0.005666 seconds
+  Import took 0.009403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.449122 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ac8f6c9c66a190484ab368efd70cfd') in 0.005649 seconds
+  Import took 0.009640 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2920.
+Total: 3.051800 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.152700 ms MarkObjects: 2.463500 ms  DeleteObjects: 0.074000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.539851 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bee44ad349527dcdd0393093842549') in 0.022771 seconds
+  Import took 0.026634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.641174 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bfc5407cdb4b95190420f0699a6ba8') in 0.005617 seconds
+  Import took 0.009766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.187074 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe7319b2072875f2f9a9de82aa8ad59') in 0.005625 seconds
+  Import took 0.009288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.069724 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254644a3957b009fea13c5a548160eaf') in 0.005276 seconds
+  Import took 0.009394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.211794 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb8da1d80dcc0a33874bd7b467733c1') in 0.005149 seconds
+  Import took 0.009120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.848474 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be5aea9c34f2bc6d099234887a3b971') in 0.005243 seconds
+  Import took 0.009011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.437092 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64feb0feab8cf537900174c15e613ee8') in 0.005190 seconds
+  Import took 0.009147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.689445 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d1d306da67a5231e4f9f1e10f84bac') in 0.005656 seconds
+  Import took 0.010212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.910948 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3c38b7780c6c24ae6f8a5bb258e49a') in 0.005628 seconds
+  Import took 0.009992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.177546 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c43529c3f6616ca3d0138cca466143f') in 0.005683 seconds
+  Import took 0.009404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.310944 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6597ce4365fea6faf9bbfe700dd9b2') in 0.005494 seconds
+  Import took 0.009360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.100679 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1304faf6aaf20e69f2ee9546025df78d') in 0.005843 seconds
+  Import took 0.009584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.892228 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2699734ba4dbd8381df050fa1e6f5ac') in 0.005349 seconds
+  Import took 0.009623 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002857 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2923.
+Total: 2.976400 ms (FindLiveObjects: 0.343400 ms CreateObjectMapping: 0.083200 ms MarkObjects: 2.473400 ms  DeleteObjects: 0.074600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.438357 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f94de530d1aa9bc3d89b343b9b36e0') in 0.022490 seconds
+  Import took 0.027300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.871298 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3b87c7316c82eeb707c5c5c4a7f713') in 0.005567 seconds
+  Import took 0.010493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.392148 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab
+  artifactKey: Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave2.prefab using Guid(147f29185be3f5145bd5ac13972e9efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6e7c586f6f44d364ef3bb0a26a0d10') in 0.005580 seconds
+  Import took 0.009345 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003078 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2926.
+Total: 2.827000 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.402800 ms  DeleteObjects: 0.065000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.958097 seconds.
+  path: Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab
+  artifactKey: Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Prefabs/Bullets/Finalised/Wave3.prefab using Guid(ebc2a25d5cf7f644698355e90d0eb4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6269a85c3db3d8465f861f2ce141d5d2') in 0.025264 seconds
+  Import took 0.029492 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003149 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.8 MB.
+System memory in use after: 115.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2929.
+Total: 3.140700 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.140500 ms MarkObjects: 2.540500 ms  DeleteObjects: 0.071600 ms)
+
