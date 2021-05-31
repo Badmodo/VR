@@ -74,12 +74,10 @@ Shader "Unlit/VortexShader"
             {
                 fixed3 V = normalize(_WorldSpaceCameraPos - i.wPos);
                 fixed3 N = i.normal;
-                fixed fresnel = dot(V, N);
+                fixed fresnel = 1 - dot(V, N);
                 // sample the texture
-                i.uvgrab.x = i.uvgrab.x + sin(i.uvgrab.x * fresnel);
-                i.uvgrab.y = i.uvgrab.y + sin(i.uvgrab.y * fresnel);
                 fixed4 col = tex2Dproj(_GrabTexture, i.uvgrab);
-                return col;
+                return col + fresnel;
             }
             ENDCG
         }

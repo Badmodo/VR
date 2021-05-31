@@ -5,15 +5,10 @@ public class HomingBullet : Bullet
     //Transform playerTransform;
     private float maxSpeed;
 
-    private void Awake()
-    {
-        particle = GetComponent<ParticleSystem>();
-    }
-
     protected override void Start()
     {
         base.Start();
-        maxSpeed = (transform.position - playerPosition).magnitude;
+        maxSpeed = (transform.position - player.position).magnitude;
         if(maxSpeed == 0)
         {
             maxSpeed += 0.01f;
@@ -22,7 +17,7 @@ public class HomingBullet : Bullet
 
     protected override void Move()
     {
-        float speed = (transform.position - playerPosition).magnitude;
+        float speed = (transform.position - player.position).magnitude;
         transform.Translate(velocity * Time.deltaTime * (speed/maxSpeed), Space.Self);
     }
 
@@ -34,6 +29,6 @@ public class HomingBullet : Bullet
         
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, angularVelocity.x);
         */
-        transform.LookAt(playerPosition);
+        transform.LookAt(player.position);
     }
 }

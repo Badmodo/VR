@@ -3851,7 +3851,7 @@ ParticleSystem:
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 1
+    enabled: 0
     serializedVersion: 2
     inside: 1
     outside: 0
@@ -4892,7 +4892,7 @@ GameObject:
   - component: {fileID: 1414502275438558596}
   - component: {fileID: 1414502275438558599}
   - component: {fileID: 1414502275438558598}
-  - component: {fileID: 1414502275438558597}
+  - component: {fileID: 5478408316825807953}
   m_Layer: 0
   m_Name: SlamWave
   m_TagString: Untagged
@@ -9641,7 +9641,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 95882c9f18b7ace4b85fbd69a687226e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9687,7 +9687,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &1414502275438558597
+--- !u!114 &5478408316825807953
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9714,7 +9714,7 @@ GameObject:
   - component: {fileID: 4622062706609624781}
   - component: {fileID: 4622062706609624782}
   - component: {fileID: 4622062706609624783}
-  - component: {fileID: 4622062706609624769}
+  - component: {fileID: 1491279449970667439}
   m_Layer: 0
   m_Name: Spawning Bullet
   m_TagString: Untagged
@@ -14567,7 +14567,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &4622062706609624769
+--- !u!114 &1491279449970667439
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14594,7 +14594,7 @@ GameObject:
   - component: {fileID: 6735003224717863446}
   - component: {fileID: 6735003224717863445}
   - component: {fileID: 6735003224717863444}
-  - component: {fileID: 6735003224717863447}
+  - component: {fileID: 118874354302955582}
   m_Layer: 0
   m_Name: Basic Bullet
   m_TagString: Untagged
@@ -19400,7 +19400,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 95882c9f18b7ace4b85fbd69a687226e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19446,7 +19446,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &6735003224717863447
+--- !u!114 &118874354302955582
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

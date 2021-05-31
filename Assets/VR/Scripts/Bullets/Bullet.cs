@@ -6,7 +6,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     protected ParticleSystem particle;
-    protected Vector3 playerPosition;
+    protected Transform player;
 
 
     [SerializeField]
@@ -18,22 +18,26 @@ public class Bullet : MonoBehaviour
     [SerializeField]
     protected bool doesTargetPlayer = true;
 
-    private void Awake()
+    protected void Awake()
     {
         particle = GetComponent<ParticleSystem>();
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        playerPosition = GameObject.FindWithTag("Player").transform.position;
-        if(doesTargetPlayer)
-            transform.LookAt(playerPosition);
+
+        if (doesTargetPlayer)
+            transform.LookAt(player.position);
         particle.Play();
     }
 
     private void OnEnable()
     {
+
+        if (doesTargetPlayer)
+            transform.LookAt(player.position);
         particle.Play();
     }
 
@@ -56,7 +60,6 @@ public class Bullet : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        Debug.Log("");
         if (other.CompareTag("Player"))
             HealthBar.health -= damage;
     }
