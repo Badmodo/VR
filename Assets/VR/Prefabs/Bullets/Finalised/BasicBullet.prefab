@@ -4820,4 +4820,4 @@ MonoBehaviour:
   velocity: {x: 0, y: 0, z: 0}
   angularVelocity: {x: 0, y: 0, z: 0}
   damage: 10
-  doesTargetPlayer: 1
+  doesTargetPlayer: 0

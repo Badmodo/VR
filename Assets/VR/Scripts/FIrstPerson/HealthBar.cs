@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
     Image healthBar;
     public float maxHealth = 100f;
     public static float health;
+    public GameObject deathScreen;
 
     private void Start()
     {
@@ -32,6 +34,14 @@ public class HealthBar : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
+
+        deathScreen.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

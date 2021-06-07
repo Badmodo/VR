@@ -19,6 +19,7 @@ public class Target : MonoBehaviour
         {
             StartCoroutine(Die());
         }
+        Debug.Log("bbamb");
     }
 
     IEnumerator Die()

@@ -53,10 +53,7 @@ namespace BreadandButter.VR
                 Destroy(gameObject);
                 return;
             }
-        }
 
-        void Start()
-        {
             //validate all the transform comenants
             ValidateComponant(leftController);
             ValidateComponant(rightController);

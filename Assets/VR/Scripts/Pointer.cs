@@ -55,9 +55,18 @@ namespace BreadandButter.VR
             }
 
             bool didHit = Physics.Raycast(controller.transform.position, controller.transform.forward, out RaycastHit hit);
+            if (didHit)
+                DidHit(hit.transform);
             EndPoint = didHit ? hit.point : Vector3.zero;
             UpdateScalePos(hit, didHit);
             SetValid(didHit);
+        }
+
+        private void DidHit(Transform _object)
+        {
+            Target target = _object.GetComponent<Target>();
+            if (target != null)
+                target.TakeDamage(10.0f * Time.deltaTime);
         }
 
         public void SetValid(bool _valid)
@@ -111,6 +120,9 @@ namespace BreadandButter.VR
 
             tracer = tracerObj.transform;
             cursor = cursorObj.transform;
+
+            Destroy(tracerObj.GetComponent<Collider>());
+            Destroy(cursorObj.GetComponent<Collider>());
 
             tracer.parent = controller.transform;
             cursor.parent = controller.transform;
