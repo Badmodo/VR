@@ -144,3 +144,43 @@ System memory in use after: 111.6 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2778.
 Total: 2.915400 ms (FindLiveObjects: 0.323800 ms CreateObjectMapping: 0.168300 ms MarkObjects: 2.348500 ms  DeleteObjects: 0.073800 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004613 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.3 MB.
+System memory in use after: 111.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2778.
+Total: 4.818600 ms (FindLiveObjects: 0.576600 ms CreateObjectMapping: 0.151900 ms MarkObjects: 3.996300 ms  DeleteObjects: 0.090800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 245.594212 seconds.
+  path: Assets/VR/Scenes/ShooterVR.unity
+  artifactKey: Guid(3866fc0df3424fb4a94424bb44973fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR/Scenes/ShooterVR.unity using Guid(3866fc0df3424fb4a94424bb44973fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199421090db23aa9a02fca19185f02b0') in 0.023251 seconds
+  Import took 0.031818 seconds .
+
