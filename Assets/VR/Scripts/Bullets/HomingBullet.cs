@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// This version of the Bullet script is always moving toward the player
+/// </summary>
 public class HomingBullet : Bullet
 {
     //Transform playerTransform;
@@ -15,12 +18,18 @@ public class HomingBullet : Bullet
         }
     }
 
+    /// <summary>
+    /// Calculate the bullet's speed based on how far away it is, then move it that far in the direction it's facing
+    /// </summary>
     protected override void Move()
     {
         float speed = (transform.position - player.position).magnitude;
         transform.Translate(velocity * Time.deltaTime * (speed/maxSpeed), Space.Self);
     }
 
+    /// <summary>
+    /// Rotate to face the player
+    /// </summary>
     protected override void Spin()
     {
         /*

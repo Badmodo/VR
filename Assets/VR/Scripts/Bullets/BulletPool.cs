@@ -1,19 +1,27 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This class handles the object pool for the boss' bullet patterns
+/// </summary>
 public class BulletPool : MonoBehaviour
 {
+    /// <summary>
+    /// The list of different bullet patterns the boss has
+    /// It should be equal to 2 + the number of phases the boss has
+    /// </summary>
     [SerializeField]
-    private List<GameObject> bulletWaves;//This should have seven objects in it
-    //On the first phase it will spawn the first three bullet prefabs
-    //When the phase changes, the set of bullets will move up the list by one
-    //Each pattern is harder than the previous ones
+    private List<GameObject> bulletWaves;
+    /// <summary>
+    /// Used to select what bullets to spawn based on the phase the boss is in
+    /// This value isn't really used in the current version
+    /// </summary>
     private int waveMarker = 0;
     /// <summary>
     /// How many bullets of each type in the pool
     /// </summary>
     private int bulletNum = 2;
+
     private List<GameObject> bulletPool;
 
     private float timer = 0.0f;
@@ -33,7 +41,7 @@ public class BulletPool : MonoBehaviour
                 newBullet.SetActive(false);
             }
         }
-        Debug.Log(bulletPool.Count);
+        //Debug.Log(bulletPool.Count);
     }
 
     // Update is called once per frame
@@ -47,6 +55,10 @@ public class BulletPool : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Selects a random bullet from the pool, and spawns it in if it's inactive
+    /// Otherwise, it does nothing
+    /// </summary>
     private void SpawnBullet()
     {
         GameObject bullet = SearchPool();
@@ -57,11 +69,17 @@ public class BulletPool : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Gets a random bullet from the pool based on what phase the boss is in
+    /// </summary>
     private GameObject SearchPool()
     {
         return bulletPool[Random.Range(waveMarker, waveMarker + (bulletNum * 3))];
     }
 
+    /// <summary>
+    /// Moves the boss to the next phase
+    /// </summary>
     public void NextPhase()
     {
         waveMarker += bulletNum;
